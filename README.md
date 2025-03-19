@@ -63,14 +63,16 @@ cd BobaS-POS
 ```
 
 ### Step 3: Configure Database Connection
-Edit the DB_CONFIG in db_manager.py and create_data.py (if you want some sample data):
+Edit the **DB_CONFIG** in **db_manager.py** and **create_data.py** (if you want some sample data):
 
+```sh
 DB_CONFIG = {
     "host": "localhost",
     "user": "...",
     "password": "...",
     "database": "BobaShopPOS"
 }
+```
 Replace "user" and "yourpassword" with your actual MySQL user and password.
 
 ### Step 4: Run the GUI Application
